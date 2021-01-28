@@ -6,12 +6,11 @@ function Eight () {
   return (
     <>
 
-
-    
-    <img src='../images/gnome1.png'></img>
-    <div className="buttonOne">
-    <button><Link to= {'/game/seven'}>8</Link></button>
+    <div className="container">
+    <img src="/images/gnome0.png" alt="windowsXP with a Gnome"/>
+    <Link className="btn1" to= '/game/seven'>8</Link>
     </div>
+
     </>
   )
   

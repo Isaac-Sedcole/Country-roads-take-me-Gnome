@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 function Four () {
 
   return (
-    <div className="buttonThree">
-    <button><Link to= '/game/three'>4</Link></button>
+    <div className="container">
+    <img src="/images/gnome4.png" alt="windowsXP with a Gnome"/>
+    <Link className="btn3" to= '/game/three'>4</Link>
     </div>
   )
   

@@ -4,6 +4,7 @@
   position: relative;
   width: 100%;
   max-width: 1920px;
+  max-height: 1080px;
 }
 
 .container img {
@@ -11,10 +12,42 @@
   height: auto;
 }
 
-.container .btn {
+.container .btn1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn2 {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn3 {
   position: absolute;
   top: 80%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #f1f1f1;
@@ -30,28 +63,4 @@
 .container .btn:hover {
   background-color: black;
   color: white;
-
-/* .buttonOne {
-  background-color: #0099CC;
-  border-radius: 30px;
-  color: white;
-  
 }
-
-.buttonTwo {
-  display: block;
-  text-decoration: none;
-  background-color: #0099CC;
-  border-radius: 30px;
-  color: white;
-  width: 120px;
-  height: 120px;
-  text-align: center;
-  font-size: 100px;
-}
-
-.buttonThree {
-  background-color: #0099CC;
-  border-radius: 30px;
-  color: white;
-} */

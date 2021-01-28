@@ -7,7 +7,7 @@ function Seven () {
 
   <div className="container">
   <img src="/images/gnome1.png" alt="windowsXP with a Gnome"/>
-  <Link className="btn" to= '/game/six'>7</Link>
+  <Link className="btn2" to= '/game/six'>7</Link>
   </div>
 
   
