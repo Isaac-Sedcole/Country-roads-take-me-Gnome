@@ -18,7 +18,6 @@ import Zero from './Zero'
 const App = () => {
   return (
     <>
-        <h1>React development has begun!</h1>
     <Route path='/game/eight' exact component={Eight}/>
     <Route path='/game/seven' exact component={Seven}/>
     <Route path='/game/six' exact component={Six}/>

@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom'
 function Two () {
 
   return (
-    <button><Link to= '/game/one'></Link>2</button>
+    <div className="buttonThree">
+    <button><Link to= '/game/one'>2</Link></button>
+    </div>
   )
   
 }

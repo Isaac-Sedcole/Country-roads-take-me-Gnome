@@ -5,8 +5,13 @@ function Eight () {
 
   return (
     <>
+
+
+    
     <img src='../images/gnome1.png'></img>
+    <div className="buttonOne">
     <button><Link to= {'/game/seven'}>8</Link></button>
+    </div>
     </>
   )
   

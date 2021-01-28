@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Five () {
 
   return (
-    <button><Link to= '/game/four'></Link>5</button>
+    <button><Link to= '/game/four'>5</Link></button>
   )
   
 }
