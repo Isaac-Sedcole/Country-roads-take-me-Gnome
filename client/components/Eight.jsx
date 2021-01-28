@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom'
 function Eight () {
 
   return (
-    <button><Link to= '/game/seven'>8</Link></button>
+    <>
+    <img src='../images/gnome1.png'></img>
+    <button><Link to= {'/game/seven'}>8</Link></button>
+    </>
   )
   
 }

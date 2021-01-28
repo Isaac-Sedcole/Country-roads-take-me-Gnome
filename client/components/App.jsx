@@ -12,13 +12,12 @@ import Two from './Two'
 import One from './One'
 import Zero from './Zero'
 
-import { HashRouter as Router, Route } from 'react-router-dom'
+
 
 const App = () => {
   return (
     <>
-    <Router>
-    <h1>React development has begun!</h1>
+        <h1>React development has begun!</h1>
     <Route path='/game/eight' exact component={Eight}/>
     <Route path='/game/seven' exact component={Seven}/>
     <Route path='/game/six' exact component={Six}/>
@@ -30,8 +29,7 @@ const App = () => {
     <Route path='/game/zero' exact component={Zero}/>
     
     <Sound/>
-    </Router>
-    </>
+      </>
   )
 }
 
