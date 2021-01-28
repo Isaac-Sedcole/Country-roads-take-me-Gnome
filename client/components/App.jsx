@@ -1,6 +1,7 @@
 import React from 'react'
 import {Route} from 'react-router-dom'
 import Sound from 'react-sound'
+import Home from './Home'
 
 import Eight from './Eight'
 import Seven from './Seven'
@@ -16,7 +17,7 @@ import Zero from './Zero'
 
 const App = () => {
   return (
-    <>
+
         <h1>React development has begun!</h1>
     <Route path='/game/eight' exact component={Eight}/>
     <Route path='/game/seven' exact component={Seven}/>
@@ -28,6 +29,9 @@ const App = () => {
     <Route path='/game/one' exact component={One}/>
     <Route path='/game/zero' exact component={Zero}/>
     
+    <Route path='/' exact component={Home}/>
+
+
     <Sound/>
       </>
   )
