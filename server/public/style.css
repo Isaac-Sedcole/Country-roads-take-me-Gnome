@@ -1,6 +1,7 @@
 
 
 .container {
+  background-color: black;
   position: relative;
   width: 100%;
   max-width: 1920px;
@@ -10,6 +11,12 @@
 .container img {
   width: 100%;
   height: auto;
+}
+
+#scary-image {
+  width: 80%;
+  max-width: 1920px;
+  max-height: 1080px;
 }
 
 .container .btn1 {

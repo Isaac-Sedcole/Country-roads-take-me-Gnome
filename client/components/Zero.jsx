@@ -3,7 +3,9 @@ import React from 'react'
 function Zero () {
 
   return (
-    <h1>ARRRRRRRRGGGGGGGGGHHHHHHHHH</h1>
+    <div className="container">
+    <img id="scary-image" src="/images/scary-image1.png" alt="aaaaaaarrrrrrrrrrrggggggggghhhhhhhhhh"/>
+       </div>
   )
   
 }
