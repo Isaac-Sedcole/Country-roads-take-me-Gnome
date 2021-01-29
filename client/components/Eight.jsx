@@ -24,10 +24,11 @@ function Eight() {
     <>
       <div className="container">
         <img src="/images/gnome0.png" alt="windowsXP with a Gnome" />
+        
         <div className="timer-wrapper">
           <CountdownCircleTimer
             isPlaying
-            duration={2}
+            duration={8}
             colors={[["#004777", 0.33], ["#F7B801", 0.33], ["#A30000"]]}
             onComplete={() => {
                setRedirect(true)
