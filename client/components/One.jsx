@@ -35,7 +35,7 @@ function One () {
         >
           {renderTime}
         </CountdownCircleTimer>
-        {redirect && <Redirect to="/" />}
+        {redirect && <Redirect to="/game/two" />}
       </div>
 
     <Link className="btn2" to= '/game/zero'>1</Link>

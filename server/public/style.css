@@ -67,6 +67,36 @@
   text-align: center;
 }
 
+.container .title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: red;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
+  font-size: 150px;
+  padding: 16px 30px;
+  text-align: center;
+}
+
+.container .btn4 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 42px;
+  padding: 16px 30px;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .container .btn:hover {
   background-color: black;
   color: white;
