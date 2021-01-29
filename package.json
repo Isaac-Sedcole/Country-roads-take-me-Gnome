@@ -46,7 +46,14 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+
+    "add": "^2.0.6",
+    "react-countdown-circle-timer": "^2.4.0",
+    "react-router-dom": "^5.2.0",
+    "yarn": "^1.22.10"
+
     "react-audio-player": "^0.14.0",
     "react-router-dom": "^5.2.0"
+
   }
 }

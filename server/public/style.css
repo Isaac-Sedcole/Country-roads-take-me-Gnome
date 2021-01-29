@@ -1,9 +1,11 @@
 
 
 .container {
+  background-color: black;
   position: relative;
   width: 100%;
   max-width: 1920px;
+  max-height: 1080px;
 }
 
 .container img {
@@ -11,10 +13,48 @@
   height: auto;
 }
 
-.container .btn {
+#scary-image {
+  width: 80%;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+
+.container .btn1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn2 {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn3 {
   position: absolute;
   top: 80%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #f1f1f1;
@@ -45,34 +85,24 @@
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-.moveBox {
-  width: 500px ;
-  height:500px ;
-  border:1px solid black;
-}
-
-/* .buttonOne {
-  background-color: #0099CC;
-  border-radius: 30px;
-  color: white;
   
+
+.timer-wrapper {
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80%;
+  left: 80%;
 }
 
-.buttonTwo {
-  display: block;
-  text-decoration: none;
-  background-color: #0099CC;
-  border-radius: 30px;
-  color: white;
-  width: 120px;
-  height: 120px;
-  text-align: center;
-  font-size: 100px;
+.timer {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.buttonThree {
-  background-color: #0099CC;
-  border-radius: 30px;
-  color: white;
-} */
