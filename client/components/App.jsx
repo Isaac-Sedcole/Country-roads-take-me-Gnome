@@ -31,7 +31,7 @@ const App = () => {
     <Route path='/' exact component={Home}/>
 
 
-    <Sound/>
+    {/* <Sound/> */}
       </>
   )
 }
