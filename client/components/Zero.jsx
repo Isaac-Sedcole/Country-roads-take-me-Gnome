@@ -31,7 +31,7 @@ function Zero() {
         }}>
         {/* {!isStarted && ( */}
         <img
-         
+         id ="scary-image"
           src="/images/scary-image1.png"
           alt="aaaaaaarrrrrrrrrrrggggggggghhhhhhhhhh"
         />
@@ -57,6 +57,7 @@ function Zero() {
           url="/sounds/scare.mp3"
           autoLoad={true}
           playStatus={playing ? Sound.status.PLAYING : Sound.status.STOPPED}
+          // playFromPosition={1000}
         />
         
       </div>
