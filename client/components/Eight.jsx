@@ -1,9 +1,12 @@
 import React,{useState} from "react";
 import { Link, Redirect } from "react-router-dom";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
+import Sound from "react-sound";
 
 function Eight() {
 
+  const [playing, setPlaying] = useState(false);
+  
   const [redirect, setRedirect] = useState(false)
 
   const renderTime = ({ remainingTime }) => {
@@ -43,6 +46,20 @@ function Eight() {
         <Link className="btn1" to="/game/seven">
           8
         </Link>
+
+        <div
+        className="container"
+        onMouseMove={() => {
+          setPlaying(true);
+        }}
+      >
+        <Sound
+          url="/sounds/birdsB.mp3"
+          autoLoad={true}
+          playStatus={playing ? Sound.status.PLAYING : Sound.status.STOPPED}
+        />
+      </div>
+
       </div>
     </>
   );

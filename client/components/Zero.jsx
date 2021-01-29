@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
+import Sound from "react-sound";
 
 function Zero() {
+  
+  const [playing, setPlaying] = useState(false);
+
   return (
     <>
       <div className="container">
